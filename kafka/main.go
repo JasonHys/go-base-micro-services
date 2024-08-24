@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"github.com/spf13/viper"
 	"log"
 )
@@ -38,5 +37,5 @@ func main() {
 	brokers := viper.GetStringSlice("kafka.brokers")
 	topic := viper.GetString("kafka.topic")
 
-	conf :=
+	//conf :=
 }
